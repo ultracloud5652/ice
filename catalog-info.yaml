@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-app
+  description: This is an example service component for Backstage catalog.
+  tags:
+    - example
+    - microservice
+spec:
+  type: service
+  owner: dev
+  lifecycle: production
+  system: sample-nodejs
