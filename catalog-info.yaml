@@ -15,13 +15,10 @@ spec:
   links:
     - url: "https://github.com/ultracloud5652/ice"  # Link to the repository
       title: "Source Code"
-
-  dependsOn:
-    - resource: some-database  # List any resources or dependencies if applicable
-  links:
-    - url: "https://github.com/ultracloud5652/ice"  # Link to the repository
-      title: "Source Code"
     - url: "https://github.com/alibaba/ice"  # Link to the live website
       title: "Website"
     - url: "https://github.com/ultracloud5652/ice/blob/master/README.md"  # Link to documentation
       title: "Documentation"
+
+  dependsOn:
+    - resource: placeholder-database  # Placeholder for future dependencies
