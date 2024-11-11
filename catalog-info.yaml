@@ -9,7 +9,7 @@ metadata:
     - website
 spec:
   type: website
-  owner: team-a  # Replace with your team or organization
+  owner: dev-team  # Replace with your team or organization
   lifecycle: production
   system: alibaba-website-systems
   links:
