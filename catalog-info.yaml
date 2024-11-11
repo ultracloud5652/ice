@@ -9,7 +9,7 @@ metadata:
     - website
 spec:
   type: website
-  owner: team-a  # Update this with your team or organization
+  owner: team-a  # Replace with your team or organization
   lifecycle: production
   system: alibaba-website-systems
   links:
@@ -19,6 +19,4 @@ spec:
       title: "Website"
     - url: "https://github.com/ultracloud5652/ice/blob/master/README.md"  # Link to documentation
       title: "Documentation"
-
-  dependsOn:
-    - resource: placeholder-database  # Placeholder for future dependencies
+  
