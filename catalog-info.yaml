@@ -1,13 +1,27 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: sample-app
-  description: This is an example service component for Backstage catalog.
+  name: alibaba-node-website
+  description: Node.js service forked from Alibaba
   tags:
-    - example
-    - microservice
+    - nodejs
+    - alibaba
+    - website
 spec:
-  type: service
-  owner: dev
+  type: website
+  owner: team-a  # Update this with your team or organization
   lifecycle: production
-  system: sample-nodejs
+  system: alibaba-website-systems
+  links:
+    - url: "https://github.com/ultracloud5652/ice"  # Link to the repository
+      title: "Source Code"
+
+  dependsOn:
+    - resource: some-database  # List any resources or dependencies if applicable
+  links:
+    - url: "https://github.com/ultracloud5652/ice"  # Link to the repository
+      title: "Source Code"
+    - url: "https://github.com/alibaba/ice"  # Link to the live website
+      title: "Website"
+    - url: "https://github.com/ultracloud5652/ice/blob/master/README.md"  # Link to documentation
+      title: "Documentation"
