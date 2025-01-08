@@ -1,5 +1,22 @@
 # @ice/rspack-config
 
+## 1.2.1
+
+### Patch Changes
+
+- 4130611d: fix: update splitChunk config
+
+## 1.2.0
+
+### Minor Changes
+
+- 710b2e48: feat: improve miniapp runtime
+
+### Patch Changes
+
+- Updated dependencies [710b2e48]
+  - @ice/shared-config@1.3.0
+
 ## 1.1.10
 
 ### Patch Changes
